@@ -1,0 +1,45 @@
+* {
+    background-color: #f4fffd;
+    text-align: center;
+    
+}
+div{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+    color: #011936;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p,section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button {
+    margin: 5px 20px 5px 20px;
+}
+.links {
+    word-spacing: 20px;
+}
+
+.opening {
+    border: 2px solid #465362;
+}
+.group-project {
+    border: 2px solid #465362;
+    text-align: center;
+}
+
+.project-gameWebsite {
+    border: 2px solid #465362;
+}
+
+.project-cardGame {
+    border: 2px solid #465362;
+}
+
+.project-3rdYear {
+    border: 2px solid #465362;
+}
