@@ -1,0 +1,884 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.MainBody {
+  width: 100%;
+  height: 720px;
+  background: rgba(35,40,45,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.MediaText {
+  width: 156px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 1062px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.MediaLibraryBody {
+  width: 175px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 1052px;
+  overflow: hidden;
+}
+.MediaBackground {
+  width: 175px;
+  height: 182px;
+  background: url("../images/v1_6.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.MediaColour {
+  width: 80px;
+  height: 80px;
+  background: url("../images/v1_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 61px;
+  overflow: hidden;
+}
+.MediaRemote {
+  width: 30px;
+  height: 66px;
+  background: url("../images/v1_8.png");
+  opacity: 1;
+  position: absolute;
+  top: 42px;
+  left: 86px;
+}
+.MediaBorder{
+  width: 175px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 1052px;
+  overflow: hidden;
+}
+.MediaHover{
+  opacity: 0;
+}
+.MediaHover:hover{
+  opacity: 1;
+}
+.BBCText {
+  width: 130px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 823px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.BBCImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 800px;
+  overflow: hidden;
+}
+.BBCBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 800px;
+  overflow: hidden;
+}
+.BBCHover{
+  opacity: 0;
+}
+.BBCHover:hover{
+  opacity: 1;
+}
+
+.YTText {
+  width: 99px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 593px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.YTImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 555px;
+  overflow: hidden;
+}
+.YTBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(0, 0, 0);
+  position: absolute;
+  top: 420px;
+  left: 555px;
+  overflow: hidden;
+}
+.YTHover{
+  opacity: 0;
+}
+.YTHover:hover{
+  opacity: 1;
+}
+
+
+.NetflixText {
+  width: 79px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 356px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.NetflixImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 308px;
+  overflow: hidden;
+}
+.NetflixBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 308px;
+  overflow: hidden;
+}
+.NetflixHover{
+  opacity: 0;
+}
+.NetflixHover:hover{
+  opacity: 1;
+}
+.DisneyText {
+  width: 94px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 94px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.DisneyImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 53px;
+  overflow: hidden;
+}
+.DisneyBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 53px;
+  overflow: hidden;
+}
+.DisneyHover{
+  opacity: 0;
+}
+.DisneyHover:hover{
+  opacity: 1;
+}
+.GameText {
+  width: 152px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 360px;
+  left: 1064px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.GameLibraryBody {
+  width: 175px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 1052px;
+  overflow: hidden;
+}
+.GameBackground {
+  width: 175px;
+  height: 182px;
+  background: url("../images/v1_24.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.GameColour {
+  width: 80px;
+  height: 80px;
+  background: url("../images/v1_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 61px;
+  overflow: hidden;
+}
+.GameController {
+  width: 83px;
+  height: 66px;
+  background: url("../images/v1_26.png");
+  opacity: 1;
+  position: absolute;
+  top: 42px;
+  left: 59px;
+}
+.GameBorder{
+  width: 175px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 178px;
+  left: 1052px;
+  overflow: hidden;
+}
+.GameHover{
+  opacity: 0;
+}
+.GameHover:hover{
+  opacity: 1;
+}
+
+
+.AAText {
+  width: 149px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 360px;
+  left: 813px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.AAImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 800px;
+  overflow: hidden;
+}
+.AABorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 178px;
+  left: 800px;
+  overflow: hidden;
+}
+.AAHover{
+  opacity: 0;
+}
+.AAHover:hover{
+  opacity: 1;
+}
+.HorizonText {
+  width: 91px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 360px;
+  left: 603px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.HorizonImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_28.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 554px;
+  overflow: hidden;
+}
+.HorizonBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 178px;
+  left: 554px;
+  overflow: hidden;
+}
+.HorizonHover{
+  opacity: 0;
+}
+.HorizonHover:hover{
+  opacity: 1;
+}
+.SonicText {
+  width: 62px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 360px;
+  left: 365px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.SonicImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 308px;
+  overflow: hidden;
+}
+.SonicBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 178px;
+  left: 308px;
+  overflow: hidden;
+}
+.SonicHover{
+  opacity: 0;
+}
+.SonicHover:hover{
+  opacity: 1;
+}
+.DSText {
+  width: 121px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 360px;
+  left: 83px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.DSImage {
+  width: 175px;
+  height: 175px;
+  background: url("../images/v1_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 53px;
+  overflow: hidden;
+}
+.DSBorder{
+  width: 175px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 178px;
+  left: 53px;
+  overflow: hidden;
+}
+.DSHover{
+  opacity: 0;
+}
+.DSHover:hover{
+  opacity: 1;
+}
+.PowerText {
+  width: 115px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 65px;
+  left: 582px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.PowerImage {
+  width: 62px;
+  height: 62px;
+  background: url("../images/v1_15.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 892px;
+}
+.PowerBorder{
+  width: 62px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 9px;
+  left: 892px;
+  overflow: hidden;
+}
+.PowerHover{
+  opacity: 0;
+}
+.PowerHover:hover{
+  opacity: 1;
+}
+.SettingsText {
+  width: 146px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 68px;
+  left: 567px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.SettingsImage {
+  width: 66px;
+  height: 60px;
+  background: url("../images/v1_16.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 817px;
+}
+.SettingsBorder{
+  width: 66px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 9px;
+  left: 817px;
+  overflow: hidden;
+}
+.SettingsHover{
+  opacity: 0;
+}
+.SettingsHover:hover{
+  opacity: 1;
+}
+.StoreText{
+  width: 146px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 69px;
+  left: 614px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.StoreImage {
+  width: 75px;
+  height: 75px;
+  background: url("../images/Store\ Image.png");
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 735px;
+}
+.StoreBorder{
+  width: 65px;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 8px;
+  left: 740px;
+  overflow: hidden;
+}
+.StoreHover{
+  opacity: 0;
+}
+.StoreHover:hover{
+  opacity: 1;
+}
+
+.NewsText {
+  width: 115px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 68px;
+  left: 572px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.NewsImage {
+  width: 61px;
+  height: 60px;
+  background: url("../images/v1_17.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 664px;
+}
+.NewsBorder{
+  width: 65px;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 8px;
+  left: 662px;
+  overflow: hidden;
+}
+.NewsHover{
+  opacity: 0;
+}
+.NewsHover:hover{
+  opacity: 1;
+}
+.AccessoriesText {
+  width: 200px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 69px;
+  left: 549px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.AccessoriesImage {
+  width: 75px;
+  height: 60px;
+  background: url("../images/v1_18.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 576px;
+}
+.AccessoriesBorder{
+  width: 75px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 9px;
+  left: 576px;
+  overflow: hidden;
+}
+.AccessoriesHover{
+  opacity: 0;
+}
+.AccessoriesHover:hover{
+  opacity: 1;
+}
+.VideosText {
+  width: 120px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 68px;
+  left: 579px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.VideosImage {
+  width: 68px;
+  height: 59px;
+  background: url("../images/v1_19.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 495px;
+}
+.VideoBorder{
+  width: 68px;
+  height: 59px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 9px;
+  left: 495px;
+  overflow: hidden;
+}
+.VideoHover{
+  opacity: 0;
+}
+.VideoHover:hover{
+  opacity: 1;
+}
+.FriendText {
+  width: 134px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 69px;
+  left: 572px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.FriendImage {
+  width: 78px;
+  height: 60px;
+  background: url("../images/v1_20.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 403px;
+}
+.FriendBorder{
+  width: 78px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 9px;
+  left: 403px;
+  overflow: hidden;
+}
+.FriendHover{
+  opacity: 0;
+}
+.FriendHover:hover{
+  opacity: 1;
+}
+.ProfileText {
+  width: 115px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 68px;
+  left: 572px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.ProfileImage {
+  width: 60px;
+  height: 60px;
+  background: url("../images/v1_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 330px;
+  overflow: hidden;
+}
+.ProfileBorder{
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 9px;
+  left: 330px;
+  overflow: hidden;
+}
+.ProfileHover{
+  opacity: 0;
+}
+.ProfileHover:hover{
+  opacity: 1;
+}
+.Time {
+  width: 136px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5px;
+  left: 1140px;
+  font-family: Jua;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.PlusText {
+  width: 100px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 689px;
+  left: 1190px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.PlusButton {
+  width: 28px;
+  height: 28px;
+  background: url("../images/Plus\ Button.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 685px;
+  left: 1160px;
+  overflow: hidden;
+}

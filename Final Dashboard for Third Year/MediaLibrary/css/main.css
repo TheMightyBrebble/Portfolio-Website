@@ -1,0 +1,455 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.MainBody {
+  width: 100%;
+  height: 720px;
+  background: rgba(35,40,45,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.YTText {
+  width: 99px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 1043px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.YTImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 1005px;
+  overflow: hidden;
+}
+.YTBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(0, 0, 0);
+  position: absolute;
+  top: 420px;
+  left: 1005px;
+  overflow: hidden;
+}
+.YTHover{
+  opacity: 0;
+}
+.YTHover:hover{
+  opacity: 1;
+}
+.TwitchText {
+  width: 79px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 757px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.TwitchImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 709px;
+  overflow: hidden;
+}
+.TwitchBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 709px;
+  overflow: hidden;
+}
+.TwitchHover{
+  opacity: 0;
+}
+.TwitchHover:hover{
+  opacity: 1;
+}
+.PrimeText {
+  width: 138px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 424px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.PrimeImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 405px;
+  overflow: hidden;
+}
+.PrimeBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 405px;
+  overflow: hidden;
+}
+.PrimeHover{
+  opacity: 0;
+}
+.PrimeHover:hover{
+  opacity: 1;
+}
+.NetflixText {
+  width: 79px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 148px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.NetflixImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  overflow: hidden;
+}
+.NetflixBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  overflow: hidden;
+}
+.NetflixHover{
+  opacity: 0;
+}
+.NetflixHover:hover{
+  opacity: 1;
+}
+.DisneyText {
+  width: 94px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 1046px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.DisneyImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 1005px;
+  overflow: hidden;
+}
+.DisneyBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 1005px;
+  overflow: hidden;
+}
+.DisneyHover{
+  opacity: 0;
+}
+.DisneyHover:hover{
+  opacity: 1;
+}
+.CrunchyrollText {
+  width: 133px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 730px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.CrunchyrollImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 709px;
+  overflow: hidden;
+}
+.CrunchyrollBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 709px;
+  overflow: hidden;
+}
+.CrunchyrollHover{
+  opacity: 0;
+}
+.CrunchyrollHover:hover{
+  opacity: 1;
+}
+.BBCText {
+  width: 130px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 428px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.BBCImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_15.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 405px;
+  overflow: hidden;
+}
+.BBCBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 405px;
+  overflow: hidden;
+}
+.BBCHover{
+  opacity: 0;
+}
+.BBCHover:hover{
+  opacity: 1;
+}
+.AppleText {
+  width: 103px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 138px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.AppleImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_34.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  overflow: hidden;
+}
+.AppleBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  overflow: hidden;
+}
+.AppleHover{
+  opacity: 0;
+}
+.AppleHover:hover{
+  opacity: 1;
+}
+.MediaText {
+  width: 95px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 885px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.GamesText {
+  width: 105px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 0.4000000059604645;
+  text-align: left;
+}
+.GamesBorder{
+  width: 105px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 3px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  overflow: hidden;
+}
+.GamesHover{
+  opacity: 0;
+}
+.GamesHover:hover{
+  opacity: 1;
+}
+.BackText {
+  width: 37px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 689px;
+  left: 1207px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.BackImage {
+  width: 42px;
+  height: 42px;
+  background: url("../images/v17_8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 678px;
+  left: 1155px;
+  overflow: hidden;
+}
+.BackBorder{
+  width: 90px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 3px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 678px;
+  left: 1160px;
+  overflow: hidden;
+}
+.BackHover{
+  opacity: 0;
+}
+.BackHover:hover{
+  opacity: 1;
+}

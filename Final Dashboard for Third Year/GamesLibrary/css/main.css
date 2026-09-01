@@ -1,0 +1,456 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.MainBody {
+  width: 100%;
+  height: 720px;
+  background: rgba(35,40,45,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.SonicText {
+  width: 62px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 1062px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.SonicImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 1005px;
+  overflow: hidden;
+}
+.SonicBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 1005px;
+  overflow: hidden;
+}
+.SonicHover{
+  opacity: 0;
+}
+.SonicHover:hover{
+  opacity: 1;
+}
+.ShantaeText {
+  width: 94px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 750px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.ShantaeImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_68.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 709px;
+  overflow: hidden;
+}
+.ShantaeBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 709px;
+  overflow: hidden;
+}
+.ShantaeHover{
+  opacity: 0;
+}
+.ShantaeHover:hover{
+  opacity: 1;
+}
+.SpiderText {
+  width: 148px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 614px;
+  left: 419px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.SpiderImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_53.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 419px;
+  left: 405px;
+  overflow: hidden;
+}
+.SpiderBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 419px;
+  left: 405px;
+  overflow: hidden;
+}
+.SpiderHover{
+  opacity: 0;
+}
+.SpiderHover:hover{
+  opacity: 1;
+}
+.HorizonText {
+  width: 91px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 610px;
+  left: 142px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.HorizonImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_46.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  overflow: hidden;
+}
+.HorizonBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  overflow: hidden;
+}
+.HorizonHover{
+  opacity: 0;
+}
+.HorizonHover:hover{
+  opacity: 1;
+}
+.HollowText {
+  width: 163px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 1011px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.HollowImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_58.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 1005px;
+  overflow: hidden;
+}
+.HollowBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 1005px;
+  overflow: hidden;
+}
+.HollowHover{
+  opacity: 0;
+}
+.HollowHover:hover{
+  opacity: 1;
+}
+.DestinyText {
+  width: 107px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 743px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.DestinyImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_63.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 709px;
+  overflow: hidden;
+}
+.DestinyBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 709px;
+  overflow: hidden;
+}
+.DestinyHover{
+  opacity: 0;
+}
+.DestinyHover:hover{
+  opacity: 1;
+}
+.DSText {
+  width: 121px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 330px;
+  left: 432px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.DSImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_50.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 405px;
+  overflow: hidden;
+}
+.DSBorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 405px;
+  overflow: hidden;
+}
+.DSHover{
+  opacity: 0;
+}
+.DSHover:hover{
+  opacity: 1;
+}
+.AAText {
+  width: 149px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 326px;
+  left: 113px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.AAImage {
+  width: 176px;
+  height: 182px;
+  background: url("../images/v13_44.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  overflow: hidden;
+}
+.AABorder{
+  width: 176px;
+  height: 182px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  overflow: hidden;
+}
+.AAHover{
+  opacity: 0;
+}
+.AAHover:hover{
+  opacity: 1;
+}
+.BackText {
+  width: 37px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 689px;
+  left: 1207px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.BackImage {
+  width: 42px;
+  height: 42px;
+  background: url("../images/v17_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 678px;
+  left: 1155px;
+  overflow: hidden;
+}
+
+.BackBorder{
+  width: 90px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 3px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 678px;
+  left: 1160px;
+  overflow: hidden;
+}
+.BackHover{
+  opacity: 0;
+}
+.BackHover:hover{
+  opacity: 1;
+}
+.MediaText {
+  width: 95px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 885px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 0.4000000059604645;
+  text-align: left;
+}
+.MediaBorder{
+  width: 95px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 3px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  left: 885px;
+  overflow: hidden;
+}
+.MediaHover{
+  opacity: 0;
+}
+.MediaHover:hover{
+  opacity: 1;
+}
+.GamesText {
+  width: 105px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  font-family: Merriweather Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
